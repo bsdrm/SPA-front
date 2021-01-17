@@ -5,9 +5,9 @@ import ProjectComponent from './components/ProjectComponent';
 
 function App() {
   return (
-    <div className="App">
-      <EmployeeComponent></EmployeeComponent>
+    <div className="App container">
       <ProjectComponent></ProjectComponent>
+      <EmployeeComponent></EmployeeComponent>
     </div>
   );
 }

@@ -19,9 +19,9 @@ export default class EmployeeComponent extends Component {
     render() {
         return (
             <div>
-                <h1 className = "text-centter">Employee List</h1>
-                <table className="table table-striped">
-                    <thead>
+                <h1 className = "text-center mt-5 h3">Employee List</h1>
+                <table className="table table-bordered table-hover table-sm">
+                    <thead className="table-secondary">
                         <tr>
                             <td>Employee Id</td>
                             <td>Employee Name</td>
